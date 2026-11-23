@@ -82,7 +82,7 @@ def build_header(theme_name, t):
       <text x="608" y="110"><tspan fill="#ff7b72">class</tspan><tspan fill="#d2a8ff"> Connor</tspan><tspan fill="#c9d1d9">:</tspan></text>
       <text x="626" y="134"><tspan fill="#c9d1d9">role = </tspan><tspan fill="#a5d6ff">"student"</tspan></text>
       <text x="626" y="158"><tspan fill="#c9d1d9">since = </tspan><tspan fill="#79c0ff">2018</tspan></text>
-      <text x="626" y="182"><tspan fill="#c9d1d9">loves = </tspan><tspan fill="#a5d6ff">"debugging"</tspan></text>
+      <text x="626" y="182"><tspan fill="#c9d1d9">loves = </tspan><tspan fill="#a5d6ff">"machine learning"</tspan></text>
     </g>
   </g>
 </svg>
@@ -216,7 +216,7 @@ def build_card(t, project):
 NOW_BUILDING = [
     ("Websites for local businesses", "Designing and launching sites for real clients", "#2f81f7"),
     ("Open-sourcing my past projects", "Cleaning up code and writing proper docs", "#8b5cf6"),
-    ("Sharpening my Python", "Writing more programs from scratch", "#3fb950"),
+    ("Learning machine learning", "Understanding the theory behind my bots", "#3fb950"),
 ]
 
 

@@ -19,8 +19,8 @@
   <text x="790" y="144" font-size="11" font-weight="600" fill="#8b5cf6">in progress</text>
   <rect x="24" y="170" width="852" height="40" rx="8" fill="#f6f8fa" stroke="#eaeef2"/>
   <rect x="24" y="170" width="4" height="40" rx="2" fill="#3fb950"/>
-  <text x="44" y="195" font-size="14" font-weight="600" fill="#1f2328">Sharpening my Python</text>
-  <text x="330" y="195" font-size="13" fill="#59636e">Writing more programs from scratch</text>
+  <text x="44" y="195" font-size="14" font-weight="600" fill="#1f2328">Learning machine learning</text>
+  <text x="330" y="195" font-size="13" fill="#59636e">Understanding the theory behind my bots</text>
   <rect x="766" y="180" width="96" height="20" rx="10" fill="#3fb950" fill-opacity="0.14" stroke="#3fb950" stroke-opacity="0.5"/>
   <circle class="pulse" cx="780" cy="190" r="3.5" fill="#3fb950"/>
   <text x="790" y="194" font-size="11" font-weight="600" fill="#3fb950">in progress</text>
