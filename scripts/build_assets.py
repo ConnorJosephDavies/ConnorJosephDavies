@@ -244,7 +244,7 @@ def build_now(t):
 # ---------------------------------------------------------------- featured project
 
 FEATURED_STATS = [
-    ("~100k", "steps / second"),
+    ("200k", "peak steps / second"),
     ("4,096", "arenas at once"),
     ("1 GPU", "RTX 3070"),
 ]
