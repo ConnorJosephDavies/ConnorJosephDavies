@@ -35,8 +35,8 @@
     <text x="838" y="71" font-size="11" fill="#6e7681" text-anchor="end" font-family="Consolas, 'Fira Code', Menlo, monospace">connor.py</text>
     <g font-family="Consolas, 'Fira Code', Menlo, monospace" font-size="13">
       <text x="608" y="110"><tspan fill="#ff7b72">class</tspan><tspan fill="#d2a8ff"> Connor</tspan><tspan fill="#c9d1d9">:</tspan></text>
-      <text x="626" y="134"><tspan fill="#c9d1d9">role = </tspan><tspan fill="#a5d6ff">"student"</tspan></text>
-      <text x="626" y="158"><tspan fill="#c9d1d9">since = </tspan><tspan fill="#79c0ff">2018</tspan></text>
+      <text x="626" y="134"><tspan fill="#c9d1d9">studying = </tspan><tspan fill="#a5d6ff">"Applied Computing"</tspan></text>
+      <text x="626" y="158"><tspan fill="#c9d1d9">tinkering_since = </tspan><tspan fill="#79c0ff">2018</tspan></text>
       <text x="626" y="182"><tspan fill="#c9d1d9">loves = </tspan><tspan fill="#a5d6ff">"machine learning"</tspan></text>
     </g>
   </g>
