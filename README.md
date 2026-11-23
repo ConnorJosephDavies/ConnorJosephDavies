@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Connor Davies, computing student, Python and web development" width="100%" />
+  <img src="assets/header.svg" alt="Connor Davies, computing student, Python and web development" width="100%" />
 </p>
 
 <p align="center">
@@ -11,6 +11,7 @@
 </p>
 
 <p align="center">
+  <a href="mailto:connordaviesetech@gmail.com"><img src="https://img.shields.io/badge/Email_me-0d1117?style=flat-square&logo=gmail&logoColor=white" alt="Email me" /></a>
   <img src="https://komarev.com/ghpvc/?username=ConnorJosephDavies&label=profile%20views&color=2f81f7&style=flat-square" alt="Profile views" />
 </p>
 
@@ -21,10 +22,10 @@ I'm a computing student focused on **Python** and **web development**. What I en
 ## Projects
 
 <p align="center">
-  <a href="https://github.com/ConnorJosephDavies/url_shortener"><img src="assets/url_shortener.svg" width="49%" alt="URL Shortener" /></a>
-  <a href="https://github.com/ConnorJosephDavies/Password-Generator"><img src="assets/Password-Generator.svg" width="49%" alt="Password Generator" /></a>
-  <a href="https://github.com/ConnorJosephDavies/Password-Strength-Checker"><img src="assets/Password-Strength-Checker.svg" width="49%" alt="Password Strength Checker" /></a>
-  <a href="https://github.com/ConnorJosephDavies/Word-Counter-Program"><img src="assets/Word-Counter-Program.svg" width="49%" alt="Word Counter" /></a>
+  <a href="https://github.com/ConnorJosephDavies/url_shortener"><img src="assets/url-shortener.svg" width="49%" alt="URL Shortener" /></a>
+  <a href="https://github.com/ConnorJosephDavies/Password-Generator"><img src="assets/password-generator.svg" width="49%" alt="Password Generator" /></a>
+  <a href="https://github.com/ConnorJosephDavies/Password-Strength-Checker"><img src="assets/password-strength-checker.svg" width="49%" alt="Password Strength Checker" /></a>
+  <a href="https://github.com/ConnorJosephDavies/Word-Counter-Program"><img src="assets/word-counter.svg" width="49%" alt="Word Counter" /></a>
 </p>
 
 <details>
