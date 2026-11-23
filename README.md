@@ -32,8 +32,7 @@ I'm a computing student focused on **Python** and **web development**. What I en
 <br/>
 
 - Building websites for local businesses
-- Writing more Python from scratch to sharpen my fundamentals
-- Preparing my first larger open-source project
+- Open sourcing a lot of my past projects
 
 </details>
 
@@ -41,6 +40,6 @@ I'm a computing student focused on **Python** and **web development**. What I en
 <summary><b>Get in touch</b></summary>
 <br/>
 
-The easiest way to reach me is to open an issue on any of my repositories.
+The easiest way to reach me is by email: **connordaviesetech@gmail.com**
 
 </details>
