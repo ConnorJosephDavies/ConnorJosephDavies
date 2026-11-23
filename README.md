@@ -3,6 +3,8 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
@@ -21,7 +23,15 @@ I'm an Applied Computing student who has been tinkering with tech since 2018. I 
 
 <img src="assets/now-dark.svg" alt="Currently building: websites for local businesses, open-sourcing my past projects, sharpening my Python" width="100%" />
 
-## Projects
+## Featured project
+
+<a href="https://github.com/ConnorJosephDavies/GigaLearnGPU"><img src="assets/featured-dark.svg" width="100%" alt="GigaLearnGPU: trains Rocket League bots with reinforcement learning, running thousands of matches at once on one GPU. About 100k steps per second across 4,096 arenas on an RTX 3070." /></a>
+
+GigaLearnGPU connects two open-source projects: the [GigaLearnCPP](https://github.com/ZealanL/GigaLearnCPP-Leak) bot trainer and the [RocketGPU](https://github.com/thecosmicskye/RocketGPU) physics engine. With it, every match is simulated together on the graphics card instead of one at a time on the CPU. I wrote the bridge between them, sped up rollouts with half-precision inference and optional async PPO, and patched RocketGPU to build on Windows with MSVC.
+
+## Where I started
+
+<sub>My first Python programs, from when I was learning the basics. I keep them here to show how far I've come.</sub>
 
 <p align="center">
   <a href="https://github.com/ConnorJosephDavies/url_shortener"><img src="assets/url-shortener-dark.svg" width="49%" alt="URL Shortener" /></a>

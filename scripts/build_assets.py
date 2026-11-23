@@ -241,8 +241,89 @@ def build_now(t):
 """
 
 
+# ---------------------------------------------------------------- featured project
+
+FEATURED_STATS = [
+    ("~100k", "steps / second"),
+    ("4,096", "arenas at once"),
+    ("1 GPU", "RTX 3070"),
+]
+
+FEATURED_TAGS = [("C++", "#f34b7d"), ("CUDA", "#3fb950"), ("LibTorch", "#ee4c2c"), ("PPO", "#8b5cf6"), ("CMake", "#58a6ff")]
+
+
+def build_featured(t):
+    # Right-hand visual: a grid of tiny arenas, each with a ball, pulsing in waves
+    # to suggest thousands of matches being simulated in one batch.
+    arenas = ""
+    cols, rows, cell_w, cell_h, gap = 10, 7, 26, 18, 5
+    x0, y0 = 548, 62
+    for row in range(rows):
+        for col in range(cols):
+            x = x0 + col * (cell_w + gap)
+            y = y0 + row * (cell_h + gap)
+            delay = (col + row) * 0.12
+            ball_x = x + 5 + ((col * 7 + row * 11) % (cell_w - 10))
+            ball_y = y + 4 + ((col * 5 + row * 3) % (cell_h - 8))
+            arenas += (f'<rect class="arena" style="animation-delay:{delay:.2f}s" x="{x}" y="{y}" width="{cell_w}" height="{cell_h}" rx="4" '
+                       f'fill="#2f81f7" fill-opacity="0.10" stroke="#2f81f7" stroke-opacity="0.35"/>'
+                       f'<line x1="{x + cell_w / 2}" y1="{y + 2}" x2="{x + cell_w / 2}" y2="{y + cell_h - 2}" stroke="#2f81f7" stroke-opacity="0.25"/>'
+                       f'<circle cx="{ball_x}" cy="{ball_y}" r="2" fill="#f0f6fc" fill-opacity="0.85"/>')
+
+    stats = ""
+    for i, (value, caption) in enumerate(FEATURED_STATS):
+        x = 40 + i * 150
+        stats += (f'<text x="{x}" y="200" font-size="26" font-weight="700" fill="{t["title"]}">{escape(value)}</text>'
+                  f'<text x="{x}" y="220" font-size="12" fill="{t["muted"]}">{escape(caption)}</text>')
+
+    tags, tag_x = "", 40
+    for name, colour in FEATURED_TAGS:
+        width = 16 + 7.2 * len(name)
+        tags += (f'<rect x="{tag_x}" y="246" width="{width:.0f}" height="22" rx="11" fill="{colour}" fill-opacity="0.14" stroke="{colour}" stroke-opacity="0.5"/>'
+                 f'<text x="{tag_x + width / 2:.0f}" y="261" font-size="11.5" font-weight="600" fill="{colour}" text-anchor="middle">{escape(name)}</text>')
+        tag_x += width + 8
+
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" font-family="{FONT}">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{t['bg_a']}"/><stop offset="1" stop-color="{t['bg_b']}"/></linearGradient>
+    <linearGradient id="faccent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2f81f7"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <radialGradient id="fglow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.25"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <clipPath id="fround"><rect width="900" height="300" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .arena {{ animation: wave 2.4s ease-in-out infinite; }}
+    @keyframes wave {{ 0%, 100% {{ fill-opacity: 0.08; }} 50% {{ fill-opacity: 0.32; }} }}
+    .pulse {{ animation: pulse 2s ease-in-out infinite; }}
+    @keyframes pulse {{ 50% {{ opacity: 0.35; }} }}
+  </style>
+  <g clip-path="url(#fround)">
+    <rect width="900" height="300" fill="url(#fbg)"/>
+    <circle cx="720" cy="150" r="230" fill="url(#fglow)"/>
+    <rect x="0" y="0" width="900" height="4" fill="url(#faccent)"/>
+    <rect x="0.5" y="0.5" width="899" height="299" rx="16" fill="none" stroke="{t['frame']}"/>
+
+    <rect x="40" y="34" width="150" height="24" rx="12" fill="#f0883e" fill-opacity="0.14" stroke="#f0883e" stroke-opacity="0.55"/>
+    <circle class="pulse" cx="56" cy="46" r="4" fill="#f0883e"/>
+    <text x="68" y="50.5" font-size="11.5" font-weight="700" fill="#f0883e" letter-spacing="0.6">FEATURED PROJECT</text>
+
+    <text x="40" y="104" font-size="38" font-weight="700" fill="{t['title']}" letter-spacing="-0.5">GigaLearnGPU</text>
+    <text x="40" y="134" font-size="15" fill="{t['text']}">Trains Rocket League bots with reinforcement learning,</text>
+    <text x="40" y="154" font-size="15" fill="{t['text']}">running thousands of matches at once on one GPU.</text>
+    {stats}
+    {tags}
+
+    <text x="548" y="50" font-size="11" fill="{t['faint']}" font-family="{MONO}">batched CUDA physics · every arena, one step</text>
+    {arenas}
+    <text x="852" y="250" font-size="11" fill="{t['faint']}" text-anchor="end" font-family="{MONO}">70 of 4,096 arenas shown</text>
+    <text x="852" y="276" font-size="13" font-weight="600" fill="{t['link']}" text-anchor="end">View repo →</text>
+  </g>
+</svg>
+"""
+
+
 def main():
     for name, t in THEMES.items():
+        write("featured", name, build_featured(t))
         write("header", name, build_header(name, t))
         write("now", name, build_now(t))
         for project in PROJECTS:
