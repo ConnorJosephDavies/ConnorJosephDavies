@@ -1,133 +1,49 @@
-<!-- Profile README for github.com/ConnorJosephDavies -->
-
 <div align="center">
 
-<a href="https://github.com/ConnorJosephDavies">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=2F81F7&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Connor+Davies+%F0%9F%91%8B;Computing+student+%26+developer;I+build+web+apps%2C+tools+%26+games;Always+learning+something+new" alt="Typing intro" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=24&duration=3500&pause=1200&color=2F81F7&center=true&vCenter=true&width=520&lines=Connor+Davies;Computing+student+%C2%B7+Python+%26+web" alt="Connor Davies" />
 
-<br/>
+Computing student in the UK, building practical tools and websites.
 
-<img src="https://komarev.com/ghpvc/?username=ConnorJosephDavies&label=Profile%20views&color=2f81f7&style=for-the-badge" alt="Profile views" />
-<a href="https://github.com/ConnorJosephDavies?tab=followers"><img src="https://img.shields.io/github/followers/ConnorJosephDavies?label=Followers&style=for-the-badge&color=2f81f7" alt="Followers" /></a>
-<a href="https://github.com/ConnorJosephDavies?tab=repositories"><img src="https://img.shields.io/badge/Repos-Explore-2f81f7?style=for-the-badge&logo=github" alt="Repositories" /></a>
+<a href="https://github.com/ConnorJosephDavies?tab=repositories"><img src="https://img.shields.io/badge/Projects-2f81f7?style=flat-square&logo=github&logoColor=white" alt="Projects" /></a>
+<img src="https://komarev.com/ghpvc/?username=ConnorJosephDavies&label=Profile%20views&color=2f81f7&style=flat-square" alt="Profile views" />
 
 </div>
 
----
+### About
 
-## 👋 About me
+I'm a computing student focused on Python and web development. I enjoy debugging: working out *why* something broke and fixing it properly. I use AI tools in my workflow and make sure I understand everything I ship.
 
-- 🎓 Computing student, building real projects alongside my studies
-- 🛠️ I make **websites for local businesses**, **developer tools** and **games**
-- 🐞 Strongest at **debugging**: tracking down *why* something broke and fixing it
-- 🤖 I use AI tools to move faster, and I make sure I understand every line I ship
-- 🌱 Currently levelling up my Python and web development
+### Tech
 
-<details>
-<summary><b>⚡ Quick facts (click to expand)</b></summary>
-<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-| | |
+### Projects
+
+| Project | What it does |
 |---|---|
-| 💬 Ask me about | Python, websites, Roblox / Luau, debugging |
-| 🎯 Goal for this year | Ship one open-source project I'm proud of |
-| 🎮 Outside code | Gaming, Rocket League, building things |
-| 📫 Reach me | Open an issue on any of my repos |
-
-</details>
-
----
-
-## 🧰 Tech stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,js,html,css,lua,java,git,github,vscode&perline=9" alt="Tech stack" />
-
-</div>
-
----
-
-## 🚀 Projects
-
-> Click a project to see what it does.
+| [**url_shortener**](https://github.com/ConnorJosephDavies/url_shortener) | Turns long links into short ones |
+| [**Password-Generator**](https://github.com/ConnorJosephDavies/Password-Generator) | Generates strong random passwords |
+| [**Password-Strength-Checker**](https://github.com/ConnorJosephDavies/Password-Strength-Checker) | Rates password strength; nothing is stored or logged |
+| [**Word-Counter-Program**](https://github.com/ConnorJosephDavies/Word-Counter-Program) | Counts the words in a text file |
 
 <details>
-<summary><b>🔗 URL Shortener</b> · Python</summary>
+<summary><b>What I'm working on</b></summary>
 <br/>
 
-Turns long links into short ones.
-
-[![Repo](https://img.shields.io/badge/View%20repo-url__shortener-2f81f7?style=flat-square&logo=github)](https://github.com/ConnorJosephDavies/url_shortener)
+- Building websites for local businesses
+- Improving my Python by writing more code from scratch
+- Preparing my first larger open-source project
 
 </details>
 
 <details>
-<summary><b>🔐 Password Generator</b> · Python</summary>
+<summary><b>Get in touch</b></summary>
 <br/>
 
-Generates strong random passwords.
-
-[![Repo](https://img.shields.io/badge/View%20repo-Password--Generator-2f81f7?style=flat-square&logo=github)](https://github.com/ConnorJosephDavies/Password-Generator)
+The easiest way to reach me is to open an issue on any of my repositories.
 
 </details>
-
-<details>
-<summary><b>🛡️ Password Strength Checker</b> · Python</summary>
-<br/>
-
-Rates how strong a password is. Nothing is logged, and you can check that yourself because it's open source.
-
-[![Repo](https://img.shields.io/badge/View%20repo-Password--Strength--Checker-2f81f7?style=flat-square&logo=github)](https://github.com/ConnorJosephDavies/Password-Strength-Checker)
-
-</details>
-
-<details>
-<summary><b>📝 Word Counter</b> · Python</summary>
-<br/>
-
-A beginner-friendly program that counts the words in a text file.
-
-[![Repo](https://img.shields.io/badge/View%20repo-Word--Counter--Program-2f81f7?style=flat-square&logo=github)](https://github.com/ConnorJosephDavies/Word-Counter-Program)
-
-</details>
-
----
-
-## 📊 GitHub analytics
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ConnorJosephDavies&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ConnorJosephDavies&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top languages" />
-
-<img src="https://streak-stats.demolab.com?user=ConnorJosephDavies&theme=tokyonight&hide_border=true" alt="Contribution streak" />
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ConnorJosephDavies&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" />
-
-</div>
-
----
-
-## 🐍 Contribution snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ConnorJosephDavies/ConnorJosephDavies/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ConnorJosephDavies/ConnorJosephDavies/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/ConnorJosephDavies/ConnorJosephDavies/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
-
----
-
-<div align="center">
-
-⭐ Found something useful? Give it a star. Thanks for stopping by!
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=2f81f7&height=100&section=footer" alt="Footer wave" width="100%" />
-
-</div>
