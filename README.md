@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
-    <img src="assets/header-light.svg" alt="Connor Davies, Applied Computing student, Python and web" width="100%" />
-  </picture>
+  <img src="assets/header-dark.svg" alt="Connor Davies, Applied Computing student, Python and web" width="100%" />
 </p>
 
 <p align="center">
@@ -22,18 +19,15 @@
 
 I'm an Applied Computing student who has been tinkering with tech since 2018. I work mostly in **Python** and **web development**, and what I enjoy most is debugging: working out *why* something broke and fixing it properly. I use AI tools in my workflow, and I make sure I understand everything I ship.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/now-dark.svg" />
-  <img src="assets/now-light.svg" alt="Currently building: websites for local businesses, open-sourcing my past projects, sharpening my Python" width="100%" />
-</picture>
+<img src="assets/now-dark.svg" alt="Currently building: websites for local businesses, open-sourcing my past projects, sharpening my Python" width="100%" />
 
 ## Projects
 
 <p align="center">
-  <a href="https://github.com/ConnorJosephDavies/url_shortener"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/url-shortener-dark.svg" /><img src="assets/url-shortener-light.svg" width="49%" alt="URL Shortener" /></picture></a>
-  <a href="https://github.com/ConnorJosephDavies/Password-Generator"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/password-generator-dark.svg" /><img src="assets/password-generator-light.svg" width="49%" alt="Password Generator" /></picture></a>
-  <a href="https://github.com/ConnorJosephDavies/Password-Strength-Checker"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/password-strength-checker-dark.svg" /><img src="assets/password-strength-checker-light.svg" width="49%" alt="Password Strength Checker" /></picture></a>
-  <a href="https://github.com/ConnorJosephDavies/Word-Counter-Program"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/word-counter-dark.svg" /><img src="assets/word-counter-light.svg" width="49%" alt="Word Counter" /></picture></a>
+  <a href="https://github.com/ConnorJosephDavies/url_shortener"><img src="assets/url-shortener-dark.svg" width="49%" alt="URL Shortener" /></a>
+  <a href="https://github.com/ConnorJosephDavies/Password-Generator"><img src="assets/password-generator-dark.svg" width="49%" alt="Password Generator" /></a>
+  <a href="https://github.com/ConnorJosephDavies/Password-Strength-Checker"><img src="assets/password-strength-checker-dark.svg" width="49%" alt="Password Strength Checker" /></a>
+  <a href="https://github.com/ConnorJosephDavies/Word-Counter-Program"><img src="assets/word-counter-dark.svg" width="49%" alt="Word Counter" /></a>
 </p>
 
 <details>
