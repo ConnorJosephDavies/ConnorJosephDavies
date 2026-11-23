@@ -19,7 +19,7 @@
 
 ## About
 
-I'm an Applied Computing student who has been tinkering with tech since 2018. **Machine learning is my favourite area.** I love building projects with it, like training Rocket League bots, and I'm working on understanding the theory behind them. I also work in **Python** and **web development**, and I'm happiest debugging: working out *why* something broke and fixing it properly. I use AI tools in my workflow, and I make sure I understand everything I ship.
+I'm an Applied Computing student who has been tinkering with tech since 2018. **Machine learning is my favourite area.** I love building projects with it, like training Rocket League bots. I also work in **Python** and **Web Development**, and I'm happiest debugging: working out *why* something broke and fixing it properly. I use AI tools in my workflow, and I make sure I understand everything I ship.
 
 ## Featured project
 
