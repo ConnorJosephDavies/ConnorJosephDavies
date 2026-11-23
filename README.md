@@ -35,8 +35,7 @@ I'm a computing student focused on Python and web development. I enjoy debugging
 <br/>
 
 - Building websites for local businesses
-- Improving my Python by writing more code from scratch
-- Preparing my first larger open-source project
+- Open sourcing a lot of my past projects. 
 
 </details>
 
@@ -44,6 +43,6 @@ I'm a computing student focused on Python and web development. I enjoy debugging
 <summary><b>Get in touch</b></summary>
 <br/>
 
-The easiest way to reach me is to open an issue on any of my repositories.
+The easiest way to reach me is to email me on connordaviesetech@gmail.com
 
 </details>
