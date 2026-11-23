@@ -20,11 +20,7 @@
     <clipPath id="round"><rect width="900" height="260" rx="18"/></clipPath>
   </defs>
 
-  <style>
-    .fade { opacity: 0; animation: in 0.9s ease-out forwards; }
-    .d1 { animation-delay: 0.1s; } .d2 { animation-delay: 0.4s; } .d3 { animation-delay: 0.7s; } .d4 { animation-delay: 1s; }
-    @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
-    .cursor { animation: blink 1s steps(1) infinite; }
+  <style>    .cursor { animation: blink 1s steps(1) infinite; }
     @keyframes blink { 50% { opacity: 0; } }
     .orb { animation: drift 10s ease-in-out infinite alternate; }
     @keyframes drift { from { transform: translate(0, 0); } to { transform: translate(-120px, 30px); } }
