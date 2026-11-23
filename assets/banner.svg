@@ -52,7 +52,7 @@
     </g>
 
     <!-- code card on the right -->
-    <g class="fade d3" transform="translate(600 58)">
+    <g transform="translate(600 58)"><g class="fade d3">
       <rect width="250" height="150" rx="12" fill="#0d1117" stroke="#30363d"/>
       <circle cx="18" cy="18" r="5" fill="#ff5f57"/><circle cx="34" cy="18" r="5" fill="#febc2e"/><circle cx="50" cy="18" r="5" fill="#28c840"/>
       <g font-family="Consolas, 'Fira Code', monospace" font-size="13">
@@ -61,6 +61,6 @@
         <text x="34" y="102"><tspan fill="#c9d1d9">stack = [</tspan><tspan fill="#a5d6ff">"py"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"web"</tspan><tspan fill="#c9d1d9">]</tspan></text>
         <text x="34" y="124"><tspan fill="#c9d1d9">learning = </tspan><tspan fill="#79c0ff">True</tspan></text>
       </g>
-    </g>
+    </g></g>
   </g>
 </svg>
