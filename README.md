@@ -21,13 +21,13 @@
 
 I'm an Applied Computing student who has been tinkering with tech since 2018. I work mostly in **Python** and **web development**, and what I enjoy most is debugging: working out *why* something broke and fixing it properly. I use AI tools in my workflow, and I make sure I understand everything I ship.
 
-<img src="assets/now-dark.svg" alt="Currently building: websites for local businesses, open-sourcing my past projects, sharpening my Python" width="100%" />
-
 ## Featured project
 
 <a href="https://github.com/ConnorJosephDavies/GigaLearnGPU"><img src="assets/featured-dark.svg" width="100%" alt="GigaLearnGPU: trains Rocket League bots with reinforcement learning, running thousands of matches at once on one GPU. About 100k steps per second across 4,096 arenas on an RTX 3070." /></a>
 
 GigaLearnGPU connects two open-source projects: the [GigaLearnCPP](https://github.com/ZealanL/GigaLearnCPP-Leak) bot trainer and the [RocketGPU](https://github.com/thecosmicskye/RocketGPU) physics engine. With it, every match is simulated together on the graphics card instead of one at a time on the CPU. I wrote the bridge between them, sped up rollouts with half-precision inference and optional async PPO, and patched RocketGPU to build on Windows with MSVC.
+
+<img src="assets/now-dark.svg" alt="Currently building: websites for local businesses, open-sourcing my past projects, sharpening my Python" width="100%" />
 
 ## Where I started
 
